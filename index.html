@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SINO-STORE | اشتراكاتك في مكان واحد</title><meta name="description" content="SINO-STORE - اشتراكات رقمية وباقات بأسعار منافسة.">
+<link rel="stylesheet" href="styles.css"></head>
+<body>
+<header class="nav"><div class="brand"><img src="assets/logo.png" alt="SINO-STORE"><span>SINO-STORE</span></div>
+<nav><a href="#home" data-ar="الرئيسية" data-en="Home">الرئيسية</a><a href="#products" data-ar="المنتجات" data-en="Products">المنتجات</a><a href="#bundles" data-ar="الباقات" data-en="Bundles">الباقات</a><a href="#offers" data-ar="العروض" data-en="Offers">العروض</a></nav>
+<div class="nav-actions"><button id="langBtn">EN</button><button id="cartBtn">🛒 <span id="cartCount">0</span></button></div></header>
+<main>
+<section id="home" class="hero"><div class="hero-copy"><span class="pill" data-ar="تسليم سريع • دعم 24/7" data-en="Fast delivery • 24/7 support">تسليم سريع • دعم 24/7</span>
+<h1 data-ar="اشتراكاتك كلها<br><b>في مكان واحد</b>" data-en="All your subscriptions<br><b>in one place</b>">اشتراكاتك كلها<br><b>في مكان واحد</b></h1>
+<p data-ar="SINO-STORE يوفر لك باقات رقمية مختارة، طلب سهل، ودفع مرن بالجنيه المصري." data-en="SINO-STORE gives you selected digital subscriptions, easy ordering and flexible EGP payments.">SINO-STORE يوفر لك باقات رقمية مختارة، طلب سهل، ودفع مرن بالجنيه المصري.</p>
+<div class="hero-actions"><a class="primary" href="#products" data-ar="تصفح المنتجات" data-en="Browse products">تصفح المنتجات</a><a class="secondary" href="#bundles" data-ar="شاهد الباقات" data-en="View bundles">شاهد الباقات</a></div></div>
+<div class="hero-art"><img src="assets/logo.png" alt=""></div></section>
+<section class="trust"><div><strong>⚡</strong><span data-ar="تسليم سريع" data-en="Fast delivery">تسليم سريع</span></div><div><strong>🔒</strong><span data-ar="دفع مرن وآمن" data-en="Flexible & secure">دفع مرن وآمن</span></div><div><strong>💙</strong><span data-ar="أسعار منافسة" data-en="Great prices">أسعار منافسة</span></div><div><strong>🎧</strong><span data-ar="دعم 24/7" data-en="24/7 support">دعم 24/7</span></div></section>
+<section id="offers" class="section"><div class="section-head"><div><span class="eyebrow" data-ar="اختياراتنا" data-en="OUR PICKS">اختياراتنا</span><h2 data-ar="المنتجات" data-en="Products">المنتجات</h2></div><div class="search-wrap"><input id="search" placeholder="ابحث عن منتج..." data-placeholder-ar="ابحث عن منتج..." data-placeholder-en="Search products..."></div></div><div id="products" class="grid"></div></section>
+<section id="bundles" class="section bundles"><div class="section-head"><div><span class="eyebrow">BUNDLES</span><h2 data-ar="باقات جاهزة" data-en="Ready-made bundles">باقات جاهزة</h2></div></div>
+<div class="bundle-grid"><article><span>🎬</span><h3>Entertainment</h3><p data-ar="Netflix + YouTube + Spotify" data-en="Netflix + YouTube + Spotify">Netflix + YouTube + Spotify</p><button class="secondary" onclick="bundleMsg('Entertainment')">اطلب الباقة</button></article>
+<article><span>🎮</span><h3>Gaming</h3><p data-ar="Gaming + Nitro + PlayStation/Xbox" data-en="Gaming + Nitro + PlayStation/Xbox">Gaming + Nitro + PlayStation/Xbox</p><button class="secondary" onclick="bundleMsg('Gaming')">اطلب الباقة</button></article>
+<article><span>🤖</span><h3>AI & Creator</h3><p data-ar="ChatGPT + Canva" data-en="ChatGPT + Canva">ChatGPT + Canva</p><button class="secondary" onclick="bundleMsg('AI & Creator')">اطلب الباقة</button></article></div></section>
+</main>
+<footer><div><b>SINO-STORE</b><p>Your Subscriptions In One Place</p></div><div><b data-ar="الدفع" data-en="Payments">الدفع</b><p>Vodafone Cash<br>InstaPay<br>Online Payment</p></div><div><b data-ar="تواصل معنا" data-en="Contact">تواصل معنا</b><p>WhatsApp: 01002633244</p></div></footer>
+<div id="cartDrawer" class="drawer"><div class="drawer-card"><button class="close" onclick="closeCart()">×</button><h2 data-ar="سلة المشتريات" data-en="Cart">سلة المشتريات</h2><div id="cartItems"></div><div class="total"><span data-ar="الإجمالي" data-en="Total">الإجمالي</span><strong id="cartTotal">0 EGP</strong></div><button class="primary full" onclick="checkoutWhatsApp()" data-ar="اطلب عبر WhatsApp" data-en="Order via WhatsApp">اطلب عبر WhatsApp</button></div></div>
+<script src="app.js"></script></body></html>
