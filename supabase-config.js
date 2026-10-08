@@ -1,0 +1,1 @@
+window.SINO_SUPABASE={url:"https://dbxmjfvbdzygbewkcelz.supabase.co",key:"sb_publishable_FHP1sDrjDJwtralj8ahYGA_WPO6V5TT"};
