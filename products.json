@@ -8,7 +8,8 @@
     "price8": 107,
     "price9": 108,
     "price10": 109,
-    "active": true
+    "active": true,
+    "category": "streaming"
   },
   {
     "slug": "youtube-premium",
@@ -19,7 +20,8 @@
     "price8": 323,
     "price9": 326,
     "price10": 329,
-    "active": true
+    "active": true,
+    "category": "streaming"
   },
   {
     "slug": "youtube-premium",
@@ -30,7 +32,8 @@
     "price8": 647,
     "price9": 653,
     "price10": 659,
-    "active": true
+    "active": true,
+    "category": "streaming"
   },
   {
     "slug": "youtube-premium",
@@ -41,7 +44,8 @@
     "price8": 1253,
     "price9": 1265,
     "price10": 1276,
-    "active": true
+    "active": true,
+    "category": "streaming"
   },
   {
     "slug": "spotify-premium",
@@ -52,7 +56,8 @@
     "price8": 107,
     "price9": 108,
     "price10": 109,
-    "active": true
+    "active": true,
+    "category": "music"
   },
   {
     "slug": "spotify-premium",
@@ -63,7 +68,8 @@
     "price8": 323,
     "price9": 326,
     "price10": 329,
-    "active": true
+    "active": true,
+    "category": "music"
   },
   {
     "slug": "spotify-premium",
@@ -74,7 +80,8 @@
     "price8": 626,
     "price9": 632,
     "price10": 637,
-    "active": true
+    "active": true,
+    "category": "music"
   },
   {
     "slug": "spotify-premium",
@@ -85,7 +92,8 @@
     "price8": 1231,
     "price9": 1242,
     "price10": 1253,
-    "active": true
+    "active": true,
+    "category": "music"
   },
   {
     "slug": "netflix",
@@ -96,7 +104,8 @@
     "price8": 323,
     "price9": 326,
     "price10": 329,
-    "active": true
+    "active": true,
+    "category": "streaming"
   },
   {
     "slug": "netflix",
@@ -107,7 +116,8 @@
     "price8": 971,
     "price9": 980,
     "price10": 989,
-    "active": true
+    "active": true,
+    "category": "streaming"
   },
   {
     "slug": "netflix",
@@ -118,7 +128,8 @@
     "price8": 1943,
     "price9": 1961,
     "price10": 1979,
-    "active": true
+    "active": true,
+    "category": "streaming"
   },
   {
     "slug": "netflix",
@@ -129,7 +140,8 @@
     "price8": 3877,
     "price9": 3913,
     "price10": 3948,
-    "active": true
+    "active": true,
+    "category": "streaming"
   },
   {
     "slug": "chatgpt-plus",
@@ -140,7 +152,8 @@
     "price8": 1565,
     "price9": 1580,
     "price10": 1594,
-    "active": true
+    "active": true,
+    "category": "ai"
   },
   {
     "slug": "chatgpt-plus",
@@ -151,7 +164,8 @@
     "price8": 3131,
     "price9": 3160,
     "price10": 3189,
-    "active": true
+    "active": true,
+    "category": "ai"
   },
   {
     "slug": "chatgpt-plus",
@@ -162,7 +176,8 @@
     "price8": 6263,
     "price9": 6321,
     "price10": 6379,
-    "active": true
+    "active": true,
+    "category": "ai"
   },
   {
     "slug": "chatgpt-plus",
@@ -173,7 +188,8 @@
     "price8": 12527,
     "price9": 12643,
     "price10": 12759,
-    "active": true
+    "active": true,
+    "category": "ai"
   },
   {
     "slug": "discord-nitro",
@@ -184,7 +200,8 @@
     "price8": 377,
     "price9": 381,
     "price10": 384,
-    "active": true
+    "active": true,
+    "category": "social"
   },
   {
     "slug": "discord-nitro",
@@ -195,7 +212,8 @@
     "price8": 1133,
     "price9": 1144,
     "price10": 1154,
-    "active": true
+    "active": true,
+    "category": "social"
   },
   {
     "slug": "discord-nitro",
@@ -206,7 +224,8 @@
     "price8": 2267,
     "price9": 2288,
     "price10": 2309,
-    "active": true
+    "active": true,
+    "category": "social"
   },
   {
     "slug": "discord-nitro",
@@ -217,7 +236,8 @@
     "price8": 4535,
     "price9": 4577,
     "price10": 4619,
-    "active": true
+    "active": true,
+    "category": "social"
   },
   {
     "slug": "shahid-vip",
@@ -228,7 +248,8 @@
     "price8": 215,
     "price9": 217,
     "price10": 219,
-    "active": true
+    "active": true,
+    "category": "streaming"
   },
   {
     "slug": "shahid-vip",
@@ -239,7 +260,8 @@
     "price8": 647,
     "price9": 653,
     "price10": 659,
-    "active": true
+    "active": true,
+    "category": "streaming"
   },
   {
     "slug": "shahid-vip",
@@ -250,7 +272,8 @@
     "price8": 1295,
     "price9": 1307,
     "price10": 1319,
-    "active": true
+    "active": true,
+    "category": "streaming"
   },
   {
     "slug": "shahid-vip",
@@ -261,7 +284,8 @@
     "price8": 2581,
     "price9": 2605,
     "price10": 2628,
-    "active": true
+    "active": true,
+    "category": "streaming"
   },
   {
     "slug": "xbox-game-pass",
@@ -272,7 +296,8 @@
     "price8": 269,
     "price9": 272,
     "price10": 274,
-    "active": true
+    "active": true,
+    "category": "gaming"
   },
   {
     "slug": "xbox-game-pass",
@@ -283,7 +308,8 @@
     "price8": 809,
     "price9": 817,
     "price10": 824,
-    "active": true
+    "active": true,
+    "category": "gaming"
   },
   {
     "slug": "xbox-game-pass",
@@ -294,7 +320,8 @@
     "price8": 1619,
     "price9": 1634,
     "price10": 1649,
-    "active": true
+    "active": true,
+    "category": "gaming"
   },
   {
     "slug": "xbox-game-pass",
@@ -305,7 +332,8 @@
     "price8": 3239,
     "price9": 3269,
     "price10": 3299,
-    "active": true
+    "active": true,
+    "category": "gaming"
   },
   {
     "slug": "playstation-plus",
@@ -316,7 +344,8 @@
     "price8": 864,
     "price9": 873,
     "price10": 881,
-    "active": true
+    "active": true,
+    "category": "gaming"
   },
   {
     "slug": "playstation-plus",
@@ -327,7 +356,8 @@
     "price8": 2483,
     "price9": 2506,
     "price10": 2529,
-    "active": true
+    "active": true,
+    "category": "gaming"
   },
   {
     "slug": "playstation-plus",
@@ -338,7 +368,8 @@
     "price8": 4968,
     "price9": 5014,
     "price10": 5060,
-    "active": true
+    "active": true,
+    "category": "gaming"
   },
   {
     "slug": "playstation-plus",
@@ -349,7 +380,8 @@
     "price8": 6890,
     "price9": 6954,
     "price10": 7017,
-    "active": true
+    "active": true,
+    "category": "gaming"
   },
   {
     "slug": "canva-pro",
@@ -360,7 +392,8 @@
     "price8": 323,
     "price9": 326,
     "price10": 329,
-    "active": true
+    "active": true,
+    "category": "creative"
   },
   {
     "slug": "canva-pro",
@@ -371,7 +404,8 @@
     "price8": 971,
     "price9": 980,
     "price10": 989,
-    "active": true
+    "active": true,
+    "category": "creative"
   },
   {
     "slug": "canva-pro",
@@ -382,7 +416,8 @@
     "price8": 1943,
     "price9": 1961,
     "price10": 1979,
-    "active": true
+    "active": true,
+    "category": "creative"
   },
   {
     "slug": "canva-pro",
@@ -393,7 +428,8 @@
     "price8": 2159,
     "price9": 2179,
     "price10": 2199,
-    "active": true
+    "active": true,
+    "category": "creative"
   },
   {
     "slug": "apple-music",
@@ -404,7 +440,8 @@
     "price8": 135,
     "price9": 137,
     "price10": 138,
-    "active": true
+    "active": true,
+    "category": "music"
   },
   {
     "slug": "apple-music",
@@ -415,7 +452,8 @@
     "price8": 378,
     "price9": 382,
     "price10": 386,
-    "active": true
+    "active": true,
+    "category": "music"
   },
   {
     "slug": "apple-music",
@@ -426,7 +464,8 @@
     "price8": 756,
     "price9": 763,
     "price10": 771,
-    "active": true
+    "active": true,
+    "category": "music"
   },
   {
     "slug": "apple-music",
@@ -437,7 +476,8 @@
     "price8": 1512,
     "price9": 1526,
     "price10": 1541,
-    "active": true
+    "active": true,
+    "category": "music"
   },
   {
     "slug": "snapchat-plus",
@@ -448,7 +488,8 @@
     "price8": 129,
     "price9": 130,
     "price10": 131,
-    "active": true
+    "active": true,
+    "category": "social"
   },
   {
     "slug": "snapchat-plus",
@@ -459,7 +500,8 @@
     "price8": 388,
     "price9": 392,
     "price10": 395,
-    "active": true
+    "active": true,
+    "category": "social"
   },
   {
     "slug": "snapchat-plus",
@@ -470,7 +512,8 @@
     "price8": 777,
     "price9": 784,
     "price10": 791,
-    "active": true
+    "active": true,
+    "category": "social"
   },
   {
     "slug": "snapchat-plus",
@@ -481,7 +524,8 @@
     "price8": 1555,
     "price9": 1569,
     "price10": 1583,
-    "active": true
+    "active": true,
+    "category": "social"
   },
   {
     "slug": "x-premium",
@@ -492,7 +536,8 @@
     "price8": 216,
     "price9": 219,
     "price10": 221,
-    "active": true
+    "active": true,
+    "category": "social"
   },
   {
     "slug": "x-premium",
@@ -503,7 +548,8 @@
     "price8": 616,
     "price9": 622,
     "price10": 627,
-    "active": true
+    "active": true,
+    "category": "social"
   },
   {
     "slug": "x-premium",
@@ -514,7 +560,8 @@
     "price8": 1188,
     "price9": 1199,
     "price10": 1210,
-    "active": true
+    "active": true,
+    "category": "social"
   },
   {
     "slug": "x-premium",
@@ -525,7 +572,8 @@
     "price8": 2268,
     "price9": 2289,
     "price10": 2310,
-    "active": true
+    "active": true,
+    "category": "social"
   },
   {
     "slug": "iptv-smarter-pro",
@@ -536,7 +584,8 @@
     "price8": 539,
     "price9": 544,
     "price10": 549,
-    "active": true
+    "active": true,
+    "category": "streaming"
   },
   {
     "slug": "iptv-smarter-pro",
@@ -547,7 +596,8 @@
     "price8": 1079,
     "price9": 1089,
     "price10": 1099,
-    "active": true
+    "active": true,
+    "category": "streaming"
   },
   {
     "slug": "iptv-smarter-pro",
@@ -558,6 +608,157 @@
     "price8": 1619,
     "price9": 1634,
     "price10": 1649,
-    "active": true
+    "active": true,
+    "category": "streaming"
+  },
+  {
+    "id": "anghami-plus-1",
+    "slug": "anghami-plus",
+    "nameAr": "أنغامي Plus",
+    "nameEn": "Anghami Plus",
+    "months": 1,
+    "base": 149,
+    "price": 167,
+    "category": "music"
+  },
+  {
+    "id": "watch-it-1",
+    "slug": "watch-it",
+    "nameAr": "WATCH IT",
+    "nameEn": "WATCH IT",
+    "months": 1,
+    "base": 179,
+    "price": 201,
+    "category": "streaming"
+  },
+  {
+    "id": "chatgpt-go-1",
+    "slug": "chatgpt-go",
+    "nameAr": "شات جي بي تي Go",
+    "nameEn": "ChatGPT Go",
+    "months": 1,
+    "base": 499,
+    "price": 559,
+    "category": "ai"
+  },
+  {
+    "id": "pubg-uc-60",
+    "slug": "pubg-uc",
+    "nameAr": "60 UC ببجي",
+    "nameEn": "PUBG Mobile 60 UC",
+    "months": 0,
+    "base": 70,
+    "price": 79,
+    "category": "gaming",
+    "uc": 60,
+    "inputType": "player-id"
+  },
+  {
+    "id": "pubg-uc-325",
+    "slug": "pubg-uc",
+    "nameAr": "325 UC ببجي",
+    "nameEn": "PUBG Mobile 325 UC",
+    "months": 0,
+    "base": 265,
+    "price": 297,
+    "category": "gaming",
+    "uc": 325,
+    "inputType": "player-id"
+  },
+  {
+    "id": "pubg-uc-385",
+    "slug": "pubg-uc",
+    "nameAr": "385 UC ببجي",
+    "nameEn": "PUBG Mobile 385 UC",
+    "months": 0,
+    "base": 335,
+    "price": 376,
+    "category": "gaming",
+    "uc": 385,
+    "inputType": "player-id"
+  },
+  {
+    "id": "pubg-uc-660",
+    "slug": "pubg-uc",
+    "nameAr": "660 UC ببجي",
+    "nameEn": "PUBG Mobile 660 UC",
+    "months": 0,
+    "base": 510,
+    "price": 572,
+    "category": "gaming",
+    "uc": 660,
+    "inputType": "player-id"
+  },
+  {
+    "id": "pubg-uc-720",
+    "slug": "pubg-uc",
+    "nameAr": "720 UC ببجي",
+    "nameEn": "PUBG Mobile 720 UC",
+    "months": 0,
+    "base": 580,
+    "price": 650,
+    "category": "gaming",
+    "uc": 720,
+    "inputType": "player-id"
+  },
+  {
+    "id": "pubg-uc-1045",
+    "slug": "pubg-uc",
+    "nameAr": "1045 UC ببجي",
+    "nameEn": "PUBG Mobile 1045 UC",
+    "months": 0,
+    "base": 880,
+    "price": 986,
+    "category": "gaming",
+    "uc": 1045,
+    "inputType": "player-id"
+  },
+  {
+    "id": "pubg-uc-1800",
+    "slug": "pubg-uc",
+    "nameAr": "1800 UC ببجي",
+    "nameEn": "PUBG Mobile 1800 UC",
+    "months": 0,
+    "base": 1350,
+    "price": 1513,
+    "category": "gaming",
+    "uc": 1800,
+    "inputType": "player-id"
+  },
+  {
+    "id": "pubg-uc-3850",
+    "slug": "pubg-uc",
+    "nameAr": "3850 UC ببجي",
+    "nameEn": "PUBG Mobile 3850 UC",
+    "months": 0,
+    "base": 2450,
+    "price": 2745,
+    "category": "gaming",
+    "uc": 3850,
+    "inputType": "player-id"
+  },
+  {
+    "id": "pubg-uc-8100",
+    "slug": "pubg-uc",
+    "nameAr": "8100 UC ببجي",
+    "nameEn": "PUBG Mobile 8100 UC",
+    "months": 0,
+    "base": 4750,
+    "price": 5321,
+    "category": "gaming",
+    "uc": 8100,
+    "inputType": "player-id"
+  },
+  {
+    "id": "pubg-uc-16200",
+    "slug": "pubg-uc",
+    "nameAr": "16200 UC ببجي",
+    "nameEn": "PUBG Mobile 16200 UC",
+    "months": 0,
+    "base": 9500,
+    "price": 10641,
+    "category": "gaming",
+    "uc": 16200,
+    "inputType": "player-id"
   }
 ]
