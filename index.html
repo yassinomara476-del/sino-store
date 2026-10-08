@@ -1,23 +1,73 @@
 <!doctype html>
 <html lang="ar" dir="rtl">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>SINO-STORE | اشتراكاتك في مكان واحد</title><meta name="description" content="SINO-STORE - اشتراكات رقمية وباقات بأسعار منافسة.">
-<link rel="stylesheet" href="styles.css"></head>
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SINO-STORE | اشتراكات رقمية وباقات وشحن PUBG</title>
+<meta name="description" content="SINO-STORE — متجر رقمي أنيق للاشتراكات والباقات وشحن PUBG Mobile UC بالجنيه المصري، مع دعم عربي وإنجليزي وطلب سريع عبر WhatsApp.">
+<meta name="robots" content="index,follow">
+<meta name="theme-color" content="#060814">
+<link rel="canonical" href="https://yassinomara476-del.github.io/sino-store/">
+<link rel="stylesheet" href="styles.css">
+</head>
 <body>
-<header class="nav"><div class="brand"><img src="assets/logo.png" alt="SINO-STORE"><span>SINO-STORE</span></div>
-<nav><a href="#home" data-ar="الرئيسية" data-en="Home">الرئيسية</a><a href="#products" data-ar="المنتجات" data-en="Products">المنتجات</a><a href="#bundles" data-ar="الباقات" data-en="Bundles">الباقات</a><a href="#offers" data-ar="العروض" data-en="Offers">العروض</a></nav>
-<div class="nav-actions"><button id="langBtn">EN</button><button id="cartBtn">🛒 <span id="cartCount">0</span></button></div></header>
+<div class="ambient ambient-a"></div><div class="ambient ambient-b"></div>
+<header class="nav">
+  <a class="brand" href="#home"><img src="assets/logo.png" alt="SINO-STORE"><span><b>SINO</b>-STORE<small>Digital Subscriptions</small></span></a>
+  <nav class="main-nav">
+    <a href="#home" data-ar="الرئيسية" data-en="Home">الرئيسية</a>
+    <a href="#subscriptions" data-ar="الاشتراكات" data-en="Subscriptions">الاشتراكات</a>
+    <a href="#pubg" data-ar="شحن PUBG" data-en="PUBG UC">شحن PUBG</a>
+    <a href="#bundles" data-ar="الباقات" data-en="Bundles">الباقات</a>
+  </nav>
+  <div class="nav-actions">
+    <input id="search" aria-label="Search" placeholder="ابحث عن اشتراك...">
+    <a class="ghost-link" href="login.html" data-ar="دخول" data-en="Sign in">دخول</a>
+    <button id="langBtn">EN</button>
+    <button id="cartBtn" class="icon-btn">🛒 <span id="cartCount">0</span></button>
+  </div>
+</header>
+
 <main>
-<section id="home" class="hero"><div class="hero-copy"><span class="pill" data-ar="تسليم سريع • دعم 24/7" data-en="Fast delivery • 24/7 support">تسليم سريع • دعم 24/7</span>
-<h1 data-ar="اشتراكاتك كلها<br><b>في مكان واحد</b>" data-en="All your subscriptions<br><b>in one place</b>">اشتراكاتك كلها<br><b>في مكان واحد</b></h1>
-<p data-ar="SINO-STORE يوفر لك باقات رقمية مختارة، طلب سهل، ودفع مرن بالجنيه المصري." data-en="SINO-STORE gives you selected digital subscriptions, easy ordering and flexible EGP payments.">SINO-STORE يوفر لك باقات رقمية مختارة، طلب سهل، ودفع مرن بالجنيه المصري.</p>
-<div class="hero-actions"><a class="primary" href="#products" data-ar="تصفح المنتجات" data-en="Browse products">تصفح المنتجات</a><a class="secondary" href="#bundles" data-ar="شاهد الباقات" data-en="View bundles">شاهد الباقات</a></div></div>
-<div class="hero-art"><img src="assets/logo.png" alt=""></div></section>
-<section class="trust"><div><strong>⚡</strong><span data-ar="تسليم سريع" data-en="Fast delivery">تسليم سريع</span></div><div><strong>🔒</strong><span data-ar="دفع مرن وآمن" data-en="Flexible & secure">دفع مرن وآمن</span></div><div><strong>💙</strong><span data-ar="أسعار منافسة" data-en="Great prices">أسعار منافسة</span></div><div><strong>🎧</strong><span data-ar="دعم 24/7" data-en="24/7 support">دعم 24/7</span></div></section>
-<section id="offers" class="section"><div class="section-head"><div><span class="eyebrow" data-ar="اختياراتنا" data-en="OUR PICKS">اختياراتنا</span><h2 data-ar="المنتجات" data-en="Products">المنتجات</h2></div><div class="search-wrap"><input id="search" placeholder="ابحث عن منتج..." data-placeholder-ar="ابحث عن منتج..." data-placeholder-en="Search products..."></div></div><div id="subscriptionProducts" class="grid"></div></section>
-<section id="pubg" class="section pubg-section"><div class="section-head"><div><span class="eyebrow">PUBG MOBILE</span><h2 data-ar="شحن شدات PUBG بالـID" data-en="PUBG UC Top-Up">شحن شدات PUBG بالـID</h2><p data-ar="اختار فئة الشدات، وبعد الطلب ابعت الـPlayer ID على واتساب." data-en="Choose a UC pack, then send your Player ID on WhatsApp after ordering.">اختار فئة الشدات، وبعد الطلب ابعت الـPlayer ID على واتساب.</p></div></div><div id="pubgProducts" class="grid"></div></section>
-<section id="bundles" class="section bundles"><div class="section-head"><div><span class="eyebrow">CURATED BUNDLES</span><h2 data-ar="باقات مختارة" data-en="Curated bundles">باقات مختارة</h2><p data-ar="السعر المعروض هو سعر البيع النهائي للباقة، بدون إظهار أي تفاصيل داخلية عن هامش التسعير." data-en="The displayed bundle price is the final storefront price. Internal pricing details stay private.">السعر المعروض هو سعر البيع النهائي للباقة، بدون إظهار أي تفاصيل داخلية عن هامش التسعير.</p></div></div><div id="bundlesGrid" class="bundle-grid"></div></section>
+<section id="home" class="hero">
+  <div class="hero-copy reveal">
+    <span class="pill" data-ar="متجر رقمي • تجربة Premium" data-en="Digital store • Premium experience">متجر رقمي • تجربة Premium</span>
+    <h1 data-ar="خدماتك الرقمية،<br><em>بشكل أبسط.</em>" data-en="Your digital services,<br><em>made simple.</em>">خدماتك الرقمية،<br><em>بشكل أبسط.</em></h1>
+    <p data-ar="اختار خدمتك، حدد الباقة، وأكمل الطلب. كل شيء منظم في مكان واحد مع تجربة سريعة على الموبايل والكمبيوتر." data-en="Pick a service, choose your plan, and place your order. Everything stays organized in one fast experience across mobile and desktop.">اختار خدمتك، حدد الباقة، وأكمل الطلب. كل شيء منظم في مكان واحد مع تجربة سريعة على الموبايل والكمبيوتر.</p>
+    <div class="hero-actions"><a class="primary" href="#subscriptions" data-ar="تصفح الاشتراكات" data-en="Browse subscriptions">تصفح الاشتراكات</a><a class="secondary" href="register.html" data-ar="أنشئ حسابك" data-en="Create account">أنشئ حسابك</a></div>
+    <div class="hero-meta"><span>⚡ <b data-ar="تفعيل سريع" data-en="Fast activation">تفعيل سريع</b></span><span>🔒 <b data-ar="طلب آمن" data-en="Secure order">طلب آمن</b></span><span>💬 <b data-ar="دعم WhatsApp" data-en="WhatsApp support">دعم WhatsApp</b></span></div>
+  </div>
+  <div class="hero-stage reveal"><div class="stage-glow"></div><div class="service-cloud">
+    <span class="float-logo l1">▶</span><span class="float-logo l2">N</span><span class="float-logo l3">♪</span><span class="float-logo l4">👻</span><span class="float-logo l5">🎮</span>
+  </div><div class="stage-card"><img src="assets/logo.png" alt="SINO-STORE" class="hero-logo"><span>SUBSCRIPTIONS · BUNDLES · UC</span></div></div>
+</section>
+
+<section class="trust reveal"><div><b>⚡</b><span data-ar="تفعيل سريع" data-en="Fast activation">تفعيل سريع</span><small data-ar="تجربة سلسة" data-en="Smooth experience">تجربة سلسة</small></div><div><b>🔒</b><span data-ar="دفع مرن" data-en="Flexible payment">دفع مرن</span><small data-ar="Vodafone Cash / InstaPay / Online" data-en="Vodafone Cash / InstaPay / Online">Vodafone Cash / InstaPay / Online</small></div><div><b>💬</b><span data-ar="دعم مباشر" data-en="Direct support">دعم مباشر</span><small>01002633244</small></div><div><b>🌐</b><span data-ar="عربي / English" data-en="Arabic / English">عربي / English</span><small data-ar="واجهة ثنائية اللغة" data-en="Bilingual interface">واجهة ثنائية اللغة</small></div></section>
+
+<section id="subscriptions" class="section">
+  <div class="section-head"><div><span class="eyebrow">SUBSCRIPTIONS</span><h2 data-ar="أشهر الخدمات" data-en="Popular services">أشهر الخدمات</h2><p data-ar="خدمات مرتبة حسب الفئة والمدة — بدون إظهار أي تفاصيل داخلية عن التسعير." data-en="Services organized by category and plan — with internal pricing details hidden.">خدمات مرتبة حسب الفئة والمدة — بدون إظهار أي تفاصيل داخلية عن التسعير.</p></div></div>
+  <div class="category-pills"><span>Streaming</span><span>Music</span><span>AI & Productivity</span><span>Gaming</span><span>Creator</span><span>Cloud</span></div>
+  <div id="subscriptionProducts" class="grid"></div>
+</section>
+
+<section id="pubg" class="section pubg-section">
+  <div class="pubg-banner"><div><span class="eyebrow">PUBG MOBILE</span><h2 data-ar="شحن شدات PUBG بالـID" data-en="PUBG UC Top-Up">شحن شدات PUBG بالـID</h2><p data-ar="اختار عدد الشدات، وبعد الطلب ابعت Player ID على WhatsApp." data-en="Choose your UC pack, then send your Player ID on WhatsApp after ordering.">اختار عدد الشدات، وبعد الطلب ابعت Player ID على WhatsApp.</p></div><div class="uc-burst">UC</div></div>
+  <div id="pubgProducts" class="grid"></div>
+</section>
+
+<section id="bundles" class="section">
+  <div class="section-head"><div><span class="eyebrow">CURATED BUNDLES</span><h2 data-ar="باقات جاهزة" data-en="Curated bundles">باقات جاهزة</h2><p data-ar="باقات مجمعة لتسهيل الاختيار — السعر الظاهر هو السعر النهائي للعميل." data-en="Curated bundles to make choosing easier — the displayed price is the final customer price.">باقات مجمعة لتسهيل الاختيار — السعر الظاهر هو السعر النهائي للعميل.</p></div></div>
+  <div id="bundlesGrid" class="bundle-grid"></div>
+</section>
+
+<section class="cta-strip reveal"><div><span class="eyebrow">SINO-STORE</span><h3 data-ar="اعمل حسابك وخلي طلباتك منظمة." data-en="Create an account and keep your orders organized.">اعمل حسابك وخلي طلباتك منظمة.</h3></div><a class="primary" href="register.html" data-ar="إنشاء حساب" data-en="Create account">إنشاء حساب</a></section>
 </main>
-<footer><div><b>SINO-STORE</b><p>Your Subscriptions In One Place</p></div><div><b data-ar="الدفع" data-en="Payments">الدفع</b><p>Vodafone Cash<br>InstaPay<br>Online Payment</p></div><div><b data-ar="تواصل معنا" data-en="Contact">تواصل معنا</b><p>WhatsApp: 01002633244</p></div></footer>
-<div id="cartDrawer" class="drawer"><div class="drawer-card"><button class="close" onclick="closeCart()">×</button><h2 data-ar="سلة المشتريات" data-en="Cart">سلة المشتريات</h2><div id="cartItems"></div><div class="total"><span data-ar="الإجمالي" data-en="Total">الإجمالي</span><strong id="cartTotal">0 EGP</strong></div><button class="primary full" onclick="checkoutWhatsApp()" data-ar="اطلب عبر WhatsApp" data-en="Order via WhatsApp">اطلب عبر WhatsApp</button></div></div>
-<script src="app.js"></script></body></html>
+
+<footer><div><b>SINO-STORE</b><p>Digital Subscriptions · EGP</p></div><div><b data-ar="روابط" data-en="Links">روابط</b><p><a href="login.html" data-ar="تسجيل الدخول" data-en="Sign in">تسجيل الدخول</a><br><a href="account.html" data-ar="حسابي" data-en="My account">حسابي</a><br><a href="admin.html" data-ar="الإدارة" data-en="Admin">الإدارة</a></p></div><div><b data-ar="الدفع والتواصل" data-en="Payments & Contact">الدفع والتواصل</b><p>Vodafone Cash · InstaPay<br>Online Payment · WhatsApp 01002633244</p></div></footer>
+
+<div id="cartDrawer" class="drawer"><div class="drawer-card"><button class="close" onclick="closeCart()">×</button><h2 data-ar="السلة" data-en="Cart">السلة</h2><div id="cartItems"></div><div class="total"><span data-ar="الإجمالي" data-en="Total">الإجمالي</span><strong id="cartTotal">0 EGP</strong></div><button class="primary full" onclick="checkoutWhatsApp()" data-ar="إرسال الطلب على WhatsApp" data-en="Send order to WhatsApp">إرسال الطلب على WhatsApp</button></div></div>
+<script src="app.js"></script>
+<script>
+const obs=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');obs.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+</script>
+</body></html>
