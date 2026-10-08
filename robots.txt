@@ -1,1 +1,3 @@
-User-agent: *\nAllow: /\nDisallow: /admin.html\nSitemap: https://yassinomara476-del.github.io/sino-store/sitemap.xml\n
+User-agent: *
+Allow: /
+Sitemap: https://yassinomara476-del.github.io/sino-store/sitemap.xml
